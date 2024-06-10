@@ -1,0 +1,29 @@
+@import 'root';
+@import 'variabler';
+.main-container {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    min-height: 840px;
+    width: 100%;
+    align-items: center;
+    font-size: 24px;
+    color: var(--text-color);
+    font-weight: 600;
+    justify-content: center;
+    padding: 80px 60px;
+    box-sizing: border-box;
+  
+    @include respond-to(991px) {
+      padding: 80px 20px;
+    }
+  }
+  
+  .bg-image {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }

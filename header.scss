@@ -1,0 +1,12 @@
+@import 'root';
+@import 'variabler';
+.header-container {
+    background-color: var(--header-background-color);
+    width: 100%;
+    padding: 0 80px;
+    box-sizing: border-box;
+  
+    @include respond-to(991px) {
+      padding: 0 20px;
+    }
+  }

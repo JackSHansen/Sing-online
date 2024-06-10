@@ -1,0 +1,30 @@
+@import 'root';
+@import 'variabler';
+.search-container {
+    position: relative;
+    border-radius: 50px;
+    background-color: var(--accent-color);
+    display: flex;
+    width: 311px;
+    max-width: 100%;
+    justify-content: space-between;
+    margin: 280px 0 244px;
+    padding: 17px 21px;
+  
+    @include respond-to(991px) {
+      padding-right: 20px;
+      margin: 40px 0;
+    }
+  }
+  
+  .search-text {
+    font-style: italic;
+    margin: auto 0;
+  }
+  
+  .search-icon {
+    aspect-ratio: 1.12;
+    object-fit: cover;
+    width: 46px;
+  }
+  

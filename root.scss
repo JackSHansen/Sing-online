@@ -1,0 +1,9 @@
+@import 'variabler';
+:root {
+    --background-color: #{$background-color};
+    --header-background-color: #{$header-background-color};
+    --text-color: #{$text-color};
+    --accent-color: #{$accent-color};
+    --nav-link-background-color: #{$nav-link-background-color};
+  }
+  

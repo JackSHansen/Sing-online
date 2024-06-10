@@ -1,0 +1,38 @@
+@import 'root';
+@import 'variabler';
+.nav-container {
+    background-color: var(--nav-link-background-color);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 80px;
+    font-size: 24px;
+    color: var(--text-color);
+    font-weight: 600;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+  
+    @include respond-to(991px) {
+      flex-wrap: wrap;
+      padding: 10px 20px;
+      white-space: initial;
+    }
+  }
+  
+  .nav-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .nav-link {
+    font-style: italic;
+    justify-content: center;
+    padding: 10px 25px;
+    cursor: pointer;
+    box-sizing: border-box;
+  
+    @include respond-to(991px) {
+      padding: 10px 20px;
+    }
+  }
